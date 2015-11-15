@@ -16,11 +16,11 @@ Installation
 
 Make sure that ejabberd is already installed. The build script assumes it's under /usr/lib/ejabberd
 
- $ git clone https://github.com/zivgabel/mod_muc_post.git
- $ cd mod_muc_post
- $ ./build.sh
- $ sudo cp ebin/*.beam /usr/lib/ejabberd/ebin
- Update the configuration in EJABBERD_HOME/config/ejabberd.yml and restart ejabberd
+- git clone https://github.com/zivgabel/mod_muc_post.git
+- cd mod_muc_post
+- ./build.sh
+- sudo cp ebin/*.beam /usr/lib/ejabberd/ebin
+- Update the configuration in EJABBERD_HOME/config/ejabberd.yml and restart ejabberd
 
 Example Configuration
 =====================
