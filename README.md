@@ -20,8 +20,7 @@ Make sure that ejabberd is already installed. The build script assumes it's unde
  $ cd mod_muc_post
  $ ./build.sh
  $ sudo cp ebin/*.beam /usr/lib/ejabberd/ebin
-
-Update the configuration in EJABBERD_HOME/config/ejabberd.yml and restart ejabberd
+ Update the configuration in EJABBERD_HOME/config/ejabberd.yml and restart ejabberd
 
 Example Configuration
 =====================
@@ -29,10 +28,12 @@ Example Configuration
     %%%   =======
     %%%   MODULES
 
-modules
-..
-..
-  mod_ziv:
-   post_url: "http://example.com/NewMessage.php"
+	modules
+	..
+	..
+	  mod_ziv:
+	   post_url: "http://example.com/NewMessage.php"
+	..
+	..
 
 
