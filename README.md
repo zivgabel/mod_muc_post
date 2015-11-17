@@ -31,7 +31,7 @@ Example Configuration
 	modules
 	..
 	..
-	  mod_ziv:
+	  mod_muc_post:
 	   post_url: "http://example.com/NewMessage.php"
 	..
 	..
