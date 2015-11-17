@@ -24,10 +24,6 @@ Make sure that ejabberd is already installed. The build script assumes it's unde
 
 Example Configuration
 =====================
-
-    %%%   =======
-    %%%   MODULES
-
 	modules
 	..
 	..
